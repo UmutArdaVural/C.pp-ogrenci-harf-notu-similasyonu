@@ -1,0 +1,14 @@
+﻿  Kaynak.cpp
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(77,15): warning C4244: 'bağımsız değişken': 'time_t' - 'unsigned int' dönüşümü; veri kaybı olabilir
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(204,24): warning C4244: '=': 'double' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(218,24): warning C4834: 'nodiscard' özniteliği içeren işlevin dönüş değeri atılıyor
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(223,24): warning C4834: 'nodiscard' özniteliği içeren işlevin dönüş değeri atılıyor
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(229,24): warning C4834: 'nodiscard' özniteliği içeren işlevin dönüş değeri atılıyor
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(235,24): warning C4834: 'nodiscard' özniteliği içeren işlevin dönüş değeri atılıyor
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(241,24): warning C4834: 'nodiscard' özniteliği içeren işlevin dönüş değeri atılıyor
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(247,24): warning C4834: 'nodiscard' özniteliği içeren işlevin dönüş değeri atılıyor
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(253,24): warning C4834: 'nodiscard' özniteliği içeren işlevin dönüş değeri atılıyor
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(259,24): warning C4834: 'nodiscard' özniteliği içeren işlevin dönüş değeri atılıyor
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(266,24): warning C4834: 'nodiscard' özniteliği içeren işlevin dönüş değeri atılıyor
+C:\Users\umuta\source\repos\1.Ödev çalışan dosya\1.Ödev çalışan dosya\Kaynak.cpp(338,31): warning C4244: '=': 'double' - 'float' dönüşümü; veri kaybı olabilir
+  1.Ödev çalışan dosya.vcxproj -> C:\Users\umuta\source\repos\1.Ödev çalışan dosya\x64\Debug\1.Ödev çalışan dosya.exe

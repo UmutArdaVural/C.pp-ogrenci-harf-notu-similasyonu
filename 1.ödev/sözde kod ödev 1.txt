@@ -1,0 +1,107 @@
+                        Sözde kod 
+
+
+
+
+öğrenci struct oluşturma 
+rasgele not oluşturma fonksiyonunu oluşturma
+rasgele ad oluşturma fonksiyonunu oluşturma
+rasgele soyad oluşturma fonksiyonunu oluşturma
+
+
+1) başla 
+
+2) sınıftaki ogrenci sayısını 0 ile 100 arasında  al j ye ata 
+
+3) ogrenci sayısı 0 ile 100 arassında değilse git 2.adım 0 ile 100 arasındaysa git 4. adım 
+
+4)ödev 1,2 //// kısasınav 1,2 /////vize ağırlıklarını al sağdaki gibi ata  a= 1.ödev b=2ödev c=1. kısa sınav d=2.kısa sınav e = vize
+
+5)toplamları 100 ise  git 6. adım değilse git 4. adım
+
+6)  yıl içi ve finalin yüzdesi al yıl içi g ye ata finali f ye ata 
+
+7)toplamları 100 değilse git 6. adım 100 ise git 8. adım 
+
+8)sayaç değişkenleri tanımla başlangıç değerlerini 0 yap 
+
+9)ekrana setw komuduyla adı soyadı 1,2 ödev 1,2 kısasınav vize final toplam not harf notu (tablo olması için for döngüsünden önce yazılır)
+
+10) i=0 ata (j sınıftaki  öğrenci sayısı yukarda atamıştım) 
+
+11)for döngüsü oluştur  
+
+    12)ad soyad odev kısasınav vize final  structlarını for döngüsü içinde rasgelelik fonksiyonları ile oluştur 
+
+    13) alınan ağırlıklra göre yıl içi notu oluştur         o.yıliçi = (a * o.odev1 + b *o.odev2 + c * o.kisasınav1 + d * o.kisasinav2 + e * o.vize ) / 100;
+
+      14) alınan ağırlıklara göre toplam notu oluştur         o.toplamnot = (o.yıliçi * g + o.final*f ) / 100;
+
+
+     15)yazdır  setw ile o.ad o.soyad o.odev o.kısasınav o.vize o.final o.toplamnot 
+
+     16)o.toplamnot toplamnot[i] dizisine kaydet toplamnotvestandartsapma=0 tanımla o.toplamnot=+toplamnotvestandartsapma kaydet
+
+   17)90 <= o.toplamnot && o.toplamnot <= 100 İSE sayaçAA++
+   85 <= o.toplamnot && o.toplamnot <= 89.99 İSE SAYAÇBA++
+   80 <= o.toplamnot && o.toplamnot <= 84.99 iSE sayaçBB++
+   75 <= o.toplamnot && o.toplamnot <= 79.99 İSE SAYAÇCB++
+   65 <= o.toplamnot && o.toplamnot <= 74.99 İSE SAYAÇCC++
+   58 <= o.toplamnot && o.toplamnot <= 64.99 İSE SAYAÇDC++
+   50 <= o.toplamnot && o.toplamnot <= 57.99 İSE SAYAÇDD++
+   40 <= o.toplamnot && o.toplamnot < 50 İSE SAYAÇFD++
+   o.toplam < 40  ise sayaçff++ 
+   
+18)YAZDIR o.harfnotu
+
+19)i++  i<j ise git 11. adım değilse git 20. adım 
+
+ 
+20)yazdır SAYAÇBA
+
+21)yazdır sayaçBB
+
+22) yazdır SAYAÇCB
+
+23) yazdır SAYAÇCC
+
+24)yazdır SAYAÇDC
+
+25)yazdır SAYAÇDD
+
+26) yazdır SAYAÇFD
+
+27)yazdır sayaçff
+   
+28) yazdır sayaçAA++
+
+29)enküçük=toplamnot[0] ata 
+
+30)enbüyük=toplamnot[0] ata 
+
+31) for döngüsü 
+
+   32)eğer toplamnot[i]<enküçük ise enküçük=toplamnot[i]
+
+    33)eğer toplamnot[i]>enbüyük ise enbüyük=toplamnot[i]
+
+     yazdır enküçük
+
+     yazdır enbüyük
+
+
+    34)i++ 
+   35) i<j ise git 31.adım değilse git 36.adım 
+36)ssapmapay=0 tanımla
+37)for döngüsü 
+38)ssapmapay = ssapmapay + (toplamnot[i] - toplamnotstandartsapmaveortalama / j) * (toplamnot[i] - toplamnotstandartsapmaveortalama / j)
+39)i++
+40)i<j ise git 37. adım değilse git 41
+41)    standartsapma = sqrt(ssapmapay / (j - 1)) tanımla
+42)yazdır standartsapma
+43)bitir
+
+
+
+
+
